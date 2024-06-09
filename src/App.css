@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.app-container{
+    background-image: url("https://i.ibb.co/HDp3nWq/redd-f-fdv-TTpk-AKk-Y-unsplash.jpg");
+    background-size: cover;
+}
+
+.dis{
+    width: 100%;
+    min-height: 100vh;
+}
