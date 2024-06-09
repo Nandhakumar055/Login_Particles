@@ -5,6 +5,11 @@
 .app-container{
     background-image: url("https://i.ibb.co/HDp3nWq/redd-f-fdv-TTpk-AKk-Y-unsplash.jpg");
     background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 0;
 }
 
 .dis{

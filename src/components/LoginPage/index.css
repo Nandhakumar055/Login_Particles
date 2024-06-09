@@ -7,6 +7,8 @@
     align-items: center;
     padding: 20px;
     min-height:100vh ;
+    position: relative;
+    z-index: 1;
 }
 
 .login-card-container{
@@ -47,6 +49,7 @@
     align-items: center;
     border-bottom: solid white 1px;
     padding-bottom: 7px;
+    cursor: pointer;
 }
 .sign-in-text{
     color: white;
@@ -58,6 +61,7 @@
     padding: 10px;
     margin-top: 20px;
     outline-color: orange;
+    background-color: rgba(0, 0, 0, 0.329);
 }
 .input{
     background-color: transparent;
@@ -77,6 +81,7 @@
 .forgot-password{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .forgot-text{
     color: white;
@@ -89,6 +94,7 @@
     align-items: center;
     padding: 4px 15px;
     border: solid 1px white;
+    cursor: pointer;
 }
 
 .secure-text{
